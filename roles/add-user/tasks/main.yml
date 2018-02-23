@@ -1,7 +1,7 @@
   - name: Change root password
     user: 
-      name: root 
-      password: "$6$rounds=656000$Il.7J6fa8icfJBRy$DfkyR/9w/KTBXIeRCNl.816BpJZ/6cw3xmRTpn3NeXjoTzogDCW7kvJhP66IJU/GulqmfsLNAklK2uvgqVpMK/"
+      name: '{{user}}'
+      password: '{{password}}'
       comment: '{{comment}}'
       groups: '{{groups}}'
       shell: '{{shell}}'
