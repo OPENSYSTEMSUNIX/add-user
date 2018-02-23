@@ -1,0 +1,6 @@
+---
+  name: 
+  password:
+  comment: ''
+  groups: 'devs'
+  shell: '/bin/bash'
